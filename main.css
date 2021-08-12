@@ -1,8 +1,7 @@
 body {
     background-image: url("Background.jpg");
+    background-repeat: repeat-x-y;
     background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 h1 {
@@ -10,43 +9,17 @@ h1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
-button {
-    background-color: #acacac; /* Green */
-    border: none;
-    color: rgb(7, 1, 1);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    position: absolute;
-    top: 45%;
-    left: 42%;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgb(255, 219, 219); /* Green */
-
-    color: #000000;
-}
-p {
-    color: beige;
-    position:absolute;
-    bottom:0;
-    right:0;
-    padding: 5px;
-}
-
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 96%; /* Full-width */
+    width: 46%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
+    margin-left: 400px;
+    direction: rtl;
   }
   
   #myUL {
@@ -54,6 +27,7 @@ p {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    direction: rtl;
   }
   
   #myUL li a {
@@ -65,6 +39,8 @@ p {
     font-size: 18px; /* Increase the font-size */
     color: black; /* Add a black text color */
     display: block; /* Make it into a block element to fill the whole list */
+    width: 50%;
+    margin-right: 350px;
   }
   
   #myUL li a:hover:not(.header) {
