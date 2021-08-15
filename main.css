@@ -21,7 +21,8 @@ h1 {
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
-    margin-left: 400px;
+    display: block;
+    margin : 0 auto;
     direction: rtl;
   }
   
@@ -42,8 +43,8 @@ h1 {
     font-size: 18px; /* Increase the font-size */
     color: black; /* Add a black text color */
     display: block; /* Make it into a block element to fill the whole list */
-    width: 50%;
-    margin-right: 350px;
+    width: 48.5%;
+    margin:auto
   }
   
   #myUL li a:hover:not(.header) {
